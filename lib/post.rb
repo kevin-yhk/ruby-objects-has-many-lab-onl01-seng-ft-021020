@@ -18,6 +18,6 @@ class Post
   
   def author_name
     if author 
-      self.
-  # end 
+      self.author.name
+    else 
 end 
