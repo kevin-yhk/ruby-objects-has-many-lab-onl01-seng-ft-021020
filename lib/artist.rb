@@ -3,5 +3,6 @@ class Artist
   
   def initalize(name)
     @name = name
+    @songs = [] 
   end 
 end 
