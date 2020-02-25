@@ -9,7 +9,7 @@ class Author
     Post.all 
   end 
   
-  def add_post(title)
-    title.author = self 
+  def add_post(posts)
+    posts.author = self 
   end 
 end 
